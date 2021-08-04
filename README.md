@@ -5,6 +5,11 @@ A collection of cross compiled utilities for arm platforms such as raspberry pi.
 ### iozone -a #should let you run all iotests on current filesystem , use --help for more options
 ### get-edid > /tmp/myedid 
 ### parse-edid < /tmp/myedid
+### get-edid-i2c > /tmp/myedid 
+### parse-edid-i2c < /tmp/myedid
+
+### tvservice -d edid.dat
+### edidparser edid.dat
 
 ## How to cross compile and statically link?
 ### Cross compilation
