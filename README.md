@@ -1,6 +1,11 @@
 # arm-utils
 A collection of cross compiled utilities for arm platforms such as raspberry pi. Tools like iozone.
 
+## Usage
+### iozone -a #should let you run all iotests on current filesystem , use --help for more options
+### get-edid > /tmp/myedid 
+### parse-edid < /tmp/myedid
+
 ## How to cross compile and statically link?
 ### Cross compilation
 Download crosscompiler toolchain from linaro https://releases.linaro.org/components/toolchain/binaries/latest-7/armv8l-linux-gnueabihf/
